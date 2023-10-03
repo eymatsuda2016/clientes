@@ -77,22 +77,22 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="488" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696294463487" />
-    <state width="1323" height="319" key="GridCell.Tab.0.bottom" timestamp="1696298478299">
+    <state width="1323" height="293" key="GridCell.Tab.0.bottom" timestamp="1696376825113">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="319" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696298478299" />
-    <state width="1323" height="319" key="GridCell.Tab.0.center" timestamp="1696298478299">
+    <state width="1323" height="293" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696376825113" />
+    <state width="1323" height="293" key="GridCell.Tab.0.center" timestamp="1696376825113">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="319" key="GridCell.Tab.0.center/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696298478299" />
-    <state width="1323" height="319" key="GridCell.Tab.0.left" timestamp="1696298478299">
+    <state width="1323" height="293" key="GridCell.Tab.0.center/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696376825113" />
+    <state width="1323" height="293" key="GridCell.Tab.0.left" timestamp="1696376825113">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="319" key="GridCell.Tab.0.left/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696298478299" />
-    <state width="1323" height="319" key="GridCell.Tab.0.right" timestamp="1696298478299">
+    <state width="1323" height="293" key="GridCell.Tab.0.left/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696376825113" />
+    <state width="1323" height="293" key="GridCell.Tab.0.right" timestamp="1696376825113">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1323" height="319" key="GridCell.Tab.0.right/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696298478299" />
+    <state width="1323" height="293" key="GridCell.Tab.0.right/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696376825113" />
     <state x="213" y="15" key="Maven.ArtifactSearchDialog" timestamp="1696294972328">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -101,9 +101,9 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="184" y="2" key="SettingsEditor/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696185612727" />
-    <state x="379" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1696292378522">
+    <state x="379" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1696375929639">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="379" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696292378522" />
+    <state x="379" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1696375929639" />
   </component>
 </project>
