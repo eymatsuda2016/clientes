@@ -2,8 +2,10 @@ package br.com.eduardomatsuda.rest;
 
 import br.com.eduardomatsuda.model.enty.Cliente;
 import br.com.eduardomatsuda.model.repository.ClienteRepository;
+import br.com.eduardomatsuda.rest.exception.ApiErrors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -30,9 +32,8 @@ public class ClienteController {
     public Cliente localizarPorId(@PathVariable Integer id){
         return repository
                 .findById(id)
-                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND));
+                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cliente não Encontrado"));
     }
-
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deletar(@PathVariable Integer id){
@@ -42,9 +43,8 @@ public class ClienteController {
                     repository.delete(cliente);
                     return Void.TYPE;
                 })
-                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND));
+                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cliente não Encontrado"));
     }
-
     @PutMapping("{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void atualizar(@PathVariable Integer id, @RequestBody @Valid Cliente clienteAtualizado){
@@ -54,6 +54,6 @@ public class ClienteController {
                     clienteAtualizado.setId(cliente.getId());
                     return repository.save(clienteAtualizado);
                 })
-                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND));
+                .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cliente não Encontrado"));
     }
 }
