@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81397fe2-deb0-4a07-b5eb-4dafe2fffc84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="ClienteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -72,5 +70,11 @@
       <updated>1713141773574</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="2" key="SettingsEditor" timestamp="1713143766858">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="184" y="2" key="SettingsEditor/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713143766858" />
   </component>
 </project>
