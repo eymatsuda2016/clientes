@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81397fe2-deb0-4a07-b5eb-4dafe2fffc84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/entity/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/repository/ServicoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
