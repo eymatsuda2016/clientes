@@ -1,9 +1,12 @@
 package com.eduardomatsuda.clientes.model.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
+@Data
 public class Servico {
 
     @Id

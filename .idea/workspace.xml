@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81397fe2-deb0-4a07-b5eb-4dafe2fffc84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/rest/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/ClienteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/ClienteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/entity/Servico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eduardomatsuda/clientes/model/entity/Servico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eduardomatsuda/clientes/ClienteApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eduardomatsuda/clientes/ClienteApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eduardomatsuda/clientes/model/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eduardomatsuda/clientes/model/entity/Cliente.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="clientes" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,25 +83,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1306" height="378" key="GridCell.Tab.0.bottom" timestamp="1713145229640">
+    <state width="1306" height="184" key="GridCell.Tab.0.bottom" timestamp="1713311157008">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1306" height="378" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713145229640" />
-    <state width="1306" height="378" key="GridCell.Tab.0.center" timestamp="1713145229639">
+    <state width="1306" height="184" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713311157008" />
+    <state width="1306" height="184" key="GridCell.Tab.0.center" timestamp="1713311157008">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1306" height="378" key="GridCell.Tab.0.center/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713145229639" />
-    <state width="1306" height="378" key="GridCell.Tab.0.left" timestamp="1713145229637">
+    <state width="1306" height="184" key="GridCell.Tab.0.center/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713311157008" />
+    <state width="1306" height="184" key="GridCell.Tab.0.left" timestamp="1713311157007">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1306" height="378" key="GridCell.Tab.0.left/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713145229637" />
-    <state width="1306" height="378" key="GridCell.Tab.0.right" timestamp="1713145229640">
+    <state width="1306" height="184" key="GridCell.Tab.0.left/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713311157007" />
+    <state width="1306" height="184" key="GridCell.Tab.0.right" timestamp="1713311157008">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1306" height="378" key="GridCell.Tab.0.right/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713145229640" />
+    <state width="1306" height="184" key="GridCell.Tab.0.right/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713311157008" />
     <state x="184" y="2" key="SettingsEditor" timestamp="1713143766858">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="184" y="2" key="SettingsEditor/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713143766858" />
+    <state x="379" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1713306039422">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="379" y="184" key="com.intellij.ide.util.TipDialog/0.0.1366.720/1366.0.1600.852@0.0.1366.720" timestamp="1713306039422" />
   </component>
 </project>
